@@ -1,0 +1,22 @@
+.demo-layout-transparent {
+  background: url('https://images.unsplash.com/photo-1441742917377-57f78ee0e582?q=80&fm=jpg&s=a79e8a2beba8b3a1ad251798a9024d8b') center / cover;
+  height: 50vh;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+
+.demo-card-wide.mdl-card {
+  width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('https://unsplash.it/1200/800?image=838') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
